@@ -92,6 +92,8 @@ Al activarse el workflow, este construyó la imagen y la publicó correctamente 
 
 ## 6. Pruebas locales
 
+![Imagen 1](030b28ee-d70f-4229-9759-e09c12490064.jpg)
+
 Para validar el funcionamiento de la imagen, se descargó y ejecutó localmente:
 
 ```bash
@@ -100,6 +102,13 @@ docker run -p 3000:80 juanjojoa7/docker-test:latest
 ```
 
 La aplicación quedó accesible en `http://localhost:3000`.
+
+![Imagen 2](211338f6-a6ab-46fc-93c2-c1235a4e60ed.jpg)
+
+## Aplicacion Funcionando de personajes de Rick y Morty
+
+![Imagen 3](a46186f8-847a-4410-b7bc-88cd3db356d0.jpg)
+![Imagen 4](ebc91f66-7fa6-408e-a79c-c9ef0cdef4f5.jpg)
 
 ## 7. Limpieza de contenedores
 
